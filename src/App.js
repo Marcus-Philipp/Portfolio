@@ -1,9 +1,9 @@
-import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen bg-red-100">
-      <h1 className="text-4xl text-red-500">Willkommen zu meinem Portfolio</h1>
+    <div className="flex h-screen bg-backgroundColor">
+      <Navbar />
     </div>
   );
 }
