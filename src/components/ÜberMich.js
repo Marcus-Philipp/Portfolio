@@ -3,9 +3,9 @@ import Admin2 from '../Ich2.png';
 
 const About = () => {
     return (
-        <section className='flex h-full text-white justify-between items-center'>
+        <section className='flex min-h-screen text-white justify-between items-center'>
             <div className='w-96 h-96 ml-20'>
-                <img className='w-full h-full rounded-full border-4 animate-colorchange' src={Admin2} alt='Profilbild' />
+                <img className='w-full h-full rounded-full border-8 animate-colorchange' src={Admin2} alt='Profilbild' />
             </div>
             <div className='w-1/2 mr-5'>
                 <h2 className='text-5xl mb-7'>Über <span className='text-textColor'>mich</span></h2>

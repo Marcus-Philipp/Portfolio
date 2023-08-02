@@ -14,7 +14,7 @@ module.exports = {
           'textColor': '#14FFEC',
       },
       animation: {
-        colorchange: 'colorchange 6s infinite',
+        colorchange: 'colorchange 5s infinite',
       },
       keyframes: {
         colorchange: {
@@ -26,6 +26,15 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.underline-thick': {
+         textDecoration: 'underline',
+         textDecorationThickness: '4px',
+        }
+      })
+    }
+  ],
 }
 

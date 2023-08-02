@@ -5,7 +5,7 @@ import Logo from '../Portfolio-Logo.png';
 const Navbar = () => {
     return (
         <header className='h-16'>
-            <nav className='flex justify-between items-center p-5 w-full top-0 left-0 bg-navColor fixed'>
+            <nav className='flex justify-between items-center p-5 w-full top-0 left-0 bg-navColor fixed z-10'>
                 <div className='w-1/6 ml-5'>
                     <img className='max-w-full max-h-full' src={Logo} alt='Logo' />
                 </div>

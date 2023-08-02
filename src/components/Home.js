@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <section className='flex h-full items-center'>
+        <section className='flex min-h-screen items-center'>
             <div className='text-white w-1/3 ml-10'>
             <p className='text-3xl mb-3'>Hallo, Ich bin</p>
             <p className='text-5xl mb-3'><span className='text-textColor'>Marcus</span> Philipp</p>
