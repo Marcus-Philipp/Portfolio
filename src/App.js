@@ -7,14 +7,15 @@ import Projects from './components/Projekte';
 import Contact from './components/Kontakt';
 
 function App() {
+
   return (
     <section className='font-quicksand bg-backgroundColor'>
       <Navbar />
-      <div id='Home' className='min-h-screen'><Home /></div>
+      <div id='Home' className='min-h-screen' ><Home /></div>
       <div id='Über-mich' className='min-h-screen'><About /></div>
       <div id='Skills' className='min-h-screen'><Skills /></div>
       <div id='Projekte' className='min-h-screen'><Projects /></div>
-      <div id='Kontakt' className='min-h-screen'><Contact /></div>
+      <div id='Kontakt' className='h-screen'><Contact /></div>
     </section>
   );
 }

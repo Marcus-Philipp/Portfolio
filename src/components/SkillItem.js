@@ -32,7 +32,7 @@ const SkillItem = ({ iconClass, text, color, number }) => {
             };
         };
 
-    }, [inView]);
+    }, [inView, number]);
 
     return (
         <div ref={ref} className='mb-8'>

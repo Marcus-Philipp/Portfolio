@@ -13,6 +13,9 @@ module.exports = {
           'navColor': '#1A2F4B',
           'textColor': '#14FFEC',
       },
+      boxShadow: {
+        'custom-color': '0 0 35px #14FFEC',
+      },
       animation: {
         colorchange: 'colorchange 5s infinite',
       },
@@ -32,7 +35,10 @@ module.exports = {
         '.underline-thick': {
          textDecoration: 'underline',
          textDecorationThickness: '4px',
-        }
+        },
+        '.text-shadow': {
+          textShadow: '0 0 20px #14FFEC',
+        },
       })
     }
   ],
