@@ -1,3 +1,3 @@
 Portfolio Marcus Philipp
 
-https://marcus-philipp.github.io/Portfolio/
+https://marcus-philipp.netlify.app/
