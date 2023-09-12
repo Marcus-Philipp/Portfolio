@@ -15,7 +15,7 @@ const Skills = () => {
                     <h3 className='text-2xl text-white underline-thick mb-8'>Technologien</h3>
                     <div className='w-3/5'>
                         <SkillItem iconClass='bx bxl-html5' text='HTML5' color='text-orange-500' number='85' />
-                        <SkillItem iconClass='bx bxl-css3' text='CSS3' color='text-blue-500' number='80' />
+                        <SkillItem iconClass='bx bxl-css3' text='(S)CSS' color='text-blue-500' number='80' />
                         <SkillItem iconClass='bx bxl-javascript' text='JavaScript' color='text-yellow-400' number='70' />
                         <SkillItem iconClass='bx bxl-jquery' text='jQuery' color='text-blue-400' number='78' />
                         <SkillItem iconClass='bx bxl-typescript' text='TypeScript' color='text-blue-400' number='66' />
