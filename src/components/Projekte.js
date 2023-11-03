@@ -8,6 +8,7 @@ import SchnickSchnack from "../Schnick-Schnack.png";
 import TodoList from "../TodoList.png";
 import Wetter from "../Wetter.png";
 import Minesweeper from "../Minesweeper.png";
+import SnakeGame from "../SnakeGame.png";
 
 const Projects = () => {
   return (
@@ -19,7 +20,14 @@ const Projects = () => {
       </div>
       <h3 className="text-2xl text-white underline-thick mb-20">Desktop</h3>
       <div className="flex flex-wrap justify-around w-full md:w-3/4">
-        <ProjectItem url="https://minesweeper-2023-react.netlify.app/" img={Minesweeper} />
+        <ProjectItem
+          url="https://snake-game-react-2023.netlify.app/"
+          img={SnakeGame}
+        />
+        <ProjectItem
+          url="https://minesweeper-2023-react.netlify.app/"
+          img={Minesweeper}
+        />
         <ProjectItem url="https://vextv.netlify.app/" img={Vext} />
         <ProjectItem
           url="https://marcus-philipp.github.io/Kreditkartenpruefer/"
