@@ -35,13 +35,13 @@ const Skills = () => {
                 <div className='flex flex-col items-center md:w-full lg:w-1/2'>
                     <h3 className='text-2xl text-white underline-thick mb-20'>Soft Skills</h3>
                     <div className='w-3/5 flex flex-wrap gap-16'>
-                        <SoftSkills text='Kreativität' percentage='80' />
-                        <SoftSkills text='Detailorientierung' percentage='80' />
+                        <SoftSkills text='Kreativität' percentage='100' />
+                        <SoftSkills text='Detailorientierung' percentage='100' />
                         <SoftSkills text='Selbstmotivation' percentage='100' />
                         <SoftSkills text='Lernbereitschaft' percentage='100' />
-                        <SoftSkills text='Problemlösungsfähigkeit' percentage='80' />
+                        <SoftSkills text='Problemlösungsfähigkeit' percentage='100' />
                         <SoftSkills text='Anpassungsfähigkeit' percentage='100' />
-                        <SoftSkills text='Leidenschaft für Technik' percentage='80' />
+                        <SoftSkills text='Leidenschaft für Technik' percentage='100' />
                     </div>
                 </div>
             </div>
