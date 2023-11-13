@@ -29,7 +29,7 @@ const Skills = () => {
                         <SkillItem iconClass='bx bxs-devices' text='Responsive Web Design' color='text-black-500' number='70' />
                         <SkillItem iconClass='bx bxl-nodejs' text='Node.js' color='text-green-600' number='65' />
                         <SkillItem iconClass='bx bxl-git' text='GIT' color='text-orange-700' number='65' />
-                        <SkillItem iconClass='bx bxl-php' text='PHP' color='text-blue-800' number='15' />
+                        <SkillItem iconClass='bx bxl-php' text='PHP' color='text-blue-800' number='20' />
                     </div>
                 </div>
                 <div className='flex flex-col items-center md:w-full lg:w-1/2'>
