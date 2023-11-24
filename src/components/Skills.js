@@ -25,11 +25,11 @@ const Skills = () => {
                         <SkillItem iconClass='bx bxl-vuejs' text='Vue.js' color='text-green-600' number='62' />
                         <SkillItem iconClass='bx bxs-file-json' text='JSON & API' color='text-black' number='69' />
                         <SkillItem iconClass='bx bxl-bootstrap' text='Bootstrap' color='text-purple-500' number='45' />
-                        <SkillItem iconClass='bx bxl-tailwind-css' text='Tailwind CSS' color='text-blue-400' number='55' />
-                        <SkillItem iconClass='bx bxs-devices' text='Responsive Web Design' color='text-black-500' number='70' />
+                        <SkillItem iconClass='bx bxl-tailwind-css' text='Tailwind CSS' color='text-blue-400' number='70' />
+                        <SkillItem iconClass='bx bxs-devices' text='Responsive Web Design' color='text-black-500' number='75' />
                         <SkillItem iconClass='bx bxl-nodejs' text='Node.js' color='text-green-600' number='65' />
                         <SkillItem iconClass='bx bxl-git' text='GIT' color='text-orange-700' number='65' />
-                        <SkillItem iconClass='bx bxl-php' text='PHP' color='text-blue-800' number='20' />
+                        <SkillItem iconClass='bx bxl-php' text='PHP' color='text-blue-800' number='42' />
                     </div>
                 </div>
                 <div className='flex flex-col items-center md:w-full lg:w-1/2'>
