@@ -20,7 +20,7 @@ const Skills = () => {
                         <SkillItem iconClass='bx bxl-jquery' text='jQuery' color='text-blue-400' number='78' />
                         <SkillItem iconClass='bx bxl-typescript' text='TypeScript' color='text-blue-400' number='66' />
                         <SkillItem iconClass='bx bxl-angular' text='Angular' color='text-red-600' number='61' />
-                        <SkillItem iconClass='bx bxl-react' text='React.js' color='text-blue-300' number='63' />
+                        <SkillItem iconClass='bx bxl-react' text='React.js' color='text-blue-300' number='70' />
                         <SkillItem iconClass='bx bxl-react' text='React Native' color='text-blue-300' number='60' />
                         <SkillItem iconClass='bx bxl-vuejs' text='Vue.js' color='text-green-600' number='62' />
                         <SkillItem iconClass='bx bxs-file-json' text='JSON & API' color='text-black' number='69' />
