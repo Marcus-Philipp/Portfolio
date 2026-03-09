@@ -12,6 +12,7 @@ const Navbar = () => {
                 <div className='hidden lg:flex justify-between w-1/2 mr-20 text-white text-2xl'>
                     <Link to='Home' smooth={true} offset={-70} duration={500} className='cursor-pointer hover:text-textColor hidden lg:block'>Home</Link>
                     <Link to='Über-mich' smooth={true} offset={-50} duration={500} className='cursor-pointer hover:text-textColor hidden lg:block'>Über mich</Link>
+                    <Link to='Cirquid-Offers' smooth={true} offset={-70} duration={500} className='cursor-pointer hover:text-textColor hidden lg:block'>Cirquid Offers</Link>
                     <Link to='Skills' smooth={true} offset={-120} duration={500} className='cursor-pointer hover:text-textColor hidden lg:block'>Skills</Link>
                     <Link to='Projekte' smooth={true} offset={-120} duration={500} className='cursor-pointer hover:text-textColor hidden lg:block'>Projekte</Link>
                     <Link to='Kontakt' smooth={true} offset={-70} duration={500} className='cursor-pointer hover:text-textColor hidden lg:block'>Kontakt</Link>
