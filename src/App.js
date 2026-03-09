@@ -1,4 +1,4 @@
-import React from 'react';
+import CirquidOffers from './components/CirquidOffers';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/ÜberMich';
@@ -13,6 +13,7 @@ function App() {
       <Navbar />
       <div id='Home' className='min-h-screen' ><Home /></div>
       <div id='Über-mich' className='min-h-screen'><About /></div>
+      <div id='Cirquid-Offers' className='min-h-screen'><CirquidOffers /></div>
       <div id='Skills' className='min-h-screen'><Skills /></div>
       <div id='Projekte' className='min-h-screen'><Projects /></div>
       <div id='Kontakt' className='h-screen'><Contact /></div>
